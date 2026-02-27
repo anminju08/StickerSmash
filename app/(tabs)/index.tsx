@@ -1,7 +1,8 @@
-import { Text, View,  StyleSheet } from 'react-native';
+import { View,  StyleSheet } from 'react-native';
+
 import Button from '../components/Button';
 import ImageViewer from '../components/ImageViewer';
-import { FooterComponent } from 'react-native-screens/lib/typescript/components/ScreenFooter';
+
 const PlaceholderImage = require('@/assets/images/background-image.png');
 
 export default function Index() {
