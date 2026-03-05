@@ -9,9 +9,9 @@ const PlaceholderImage = require('@/assets/images/background-image.png');
 export default function Index() {
   const pickImageAsync = async() => {
     let result = await ImagePicker.launchImageLibraryAsync({ //이 작업 끝나기까지 딱ㄱㄷ
-      mediaTypes: ['images'],
-      allowsEditing: true,
-      quality:1,
+      mediaTypes: ['images'], //이미지만 선택 가능 
+      allowsEditing: true, //자르기 기능
+      quality:1, //	이미지 품질 설정.
     });
 
     if(!result.canceled){
