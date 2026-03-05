@@ -5,6 +5,7 @@ import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 type Props = PropsWithChildren<{
     isVisible: boolean;
     onClose: () => void;
+    //PropsWithChildren은 children 타입을 자동으로 추가해주는 유틸 타입
 }>;
 
 export default function EmojiPicker({isVisible, children, onClose}:Props){
